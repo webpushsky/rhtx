@@ -1,0 +1,74 @@
+
+.solution_div{
+	width:980px;
+	height:359px;
+	margin-top:8px;
+	border:1px solid #cdcdcd;
+	padding:12px;
+	background:#eee;
+	margin:10px auto;
+    overflow: hidden;
+    position: relative;
+
+}
+.solution_div ul{
+    margin:0;
+    padding: 0;
+	}
+	
+.solution_div ul li{
+	float: left;
+	width:309px;
+	height:351px;
+	margin-left:8px;
+	margin-right:8px;
+	position: relative;
+}
+.solution_div ul li,.solution_div ul li *{
+
+}
+.solution_div ul li div.solution_scroll{
+	margin:207px 33px 10px 33px;
+	overflow: hidden;
+	height:120px;
+}
+.solution_div ul li div.solution_scroll *{
+	font-size: 14px;
+	color:#757477;
+	font-family: 微软雅黑,黑体;
+	
+}
+.solution_div ul li div.all{
+	font-size: 14px;
+	color:#d30c0c;
+	font-family: 微软雅黑,黑体;
+	position: absolute;
+	bottom: 0px;
+	text-align: center;
+	width: 216px;
+}
+
+.solution_div ul li{
+	background:url(../images/solution/ad_bg.png) no-repeat 0 0;
+}
+.solution_div ul li.one{	
+	background-position: 0 0;
+}
+.solution_div ul li.one.gray{	
+	background-position: -936px 0;
+}
+.solution_div ul li.two{
+	background-position: -312px 0;
+}
+.solution_div ul li.two.gray{
+	background-position: -1248px 0;
+}
+.solution_div ul li.three{
+	background-position: -624px 0;
+}
+.solution_div ul li.three.gray{
+	background-position: -1560px 0;
+}
+.solution_div ul li.gray *{
+	color:gray!important;
+}

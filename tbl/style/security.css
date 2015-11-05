@@ -1,0 +1,97 @@
+.security_div{
+	overflow: hidden;
+	position: relative; 
+	width: 980px;  
+	background:#eee;
+	border: 1px solid #cdcdcd;
+	margin:8px auto;
+	padding: 12px 
+	}
+
+.security_div .title{
+	font-size: 30px;
+	font-family: 微软雅黑,黑体;
+	font-weight: bolder;
+	color:#999999;
+}
+
+.security_div dt{
+	font-size: 18px;
+	font-family: 微软雅黑,黑体;
+	font-weight: bolder;
+	color:#666666;	
+	margin-bottom: 16px;
+}
+.security_div dd *{
+	font-size: 11px;
+	font-family: 微软雅黑,黑体;
+	color:#999999;	
+}
+.security_div dd p,.security_div dd span{
+	line-height: 20px;
+}
+.security_div ul{
+    overflow: hidden;
+	margin:17px;;
+	padding:0;
+}
+.security_div ul li.security_text {
+    float: left;
+    width:235px;
+    height: 470px;
+    background: url(../images/security/ss1.png)   no-repeat 0 0;
+}
+
+.security_div ul li div.security_content {
+
+    margin: 236px 13px 10px;
+    overflow: hidden;
+	height:213px;
+}
+
+.security_div ul li div.security_content *{
+    font-size: 14px;
+    color:#757477;
+    font-family: 微软雅黑,黑体;
+
+}
+.security_div ul li.security_text  *{
+    color:757477;
+}
+.security_div ul li.security_text.one{
+    background-position: 0 0;
+}
+.security_div ul li.security_text.one.gray{
+    background-position: -941px 0;
+}
+
+.security_div ul li.security_text.two{
+    background-position: -235px 0; 
+}
+.security_div ul li.security_text.two.gray{
+    background-position: -1176px 0;
+}
+.security_div ul li.security_text.three{
+    background-position: -470px 0;
+}
+.security_div ul li.security_text.three.gray{
+    background-position: -1411px 0;
+}
+.security_div ul li.security_text.four{
+    background-position: -705px 0;
+}
+.security_div ul li.security_text.four.gray{
+    background-position: -1646px 0;
+    }
+.security_div ul li.security_text.gray *{
+    color:gray!important;
+}
+
+.security_div ul li.security_text .security_content_title{
+	margin-bottom: 13px;
+	color:#666666;
+	cursor: pointer;
+	font-size: 16px;
+	font-weight: bold;
+}
+
